@@ -1,0 +1,120 @@
+.fondo{
+  background: url(../img/img1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.casilla{
+  background-color: #ffcccc;
+  opacity: 0.9;
+  border-bottom: 1px solid black;
+  padding: 0px;
+}
+
+.casilla1{
+  border-right: 1px solid black;
+}
+
+.Buscar{
+padding: 0;
+}
+
+.img-circle{
+  border-radius:35px;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.img-cir{
+  padding: 0px;
+}
+
+.redes-sociales{
+  margin-top: 13px;
+  float: right;
+  padding: 0px;
+}
+
+.img-social{
+  width: 40px;
+  border-radius: 5px;
+}
+
+.cuadro1{
+  border-bottom: 1px solid black;
+}
+.cuadro2{
+  padding-top: 15px;
+}
+
+.contenidof{
+  color: black;
+  margin-top: 20px;
+  border-top: 1px solid gray;
+  padding-top: 8px;
+}
+textarea{
+  border-radius: 8px;
+  margin-top: 5px;
+}
+.img-circle{
+  width: 130px;
+  height: 100%;
+}
+
+.Historial{
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 8px 0px 0px 10px;
+  margin: 10px 5px 10px 5px !important;
+}
+
+h1{
+  font-family: 'Saira Stencil One';
+  color: black;
+}
+
+h2{
+  font-family: 'Beth Ellen', cursive;
+  font-size: 25px;
+  text-align: right;
+  color: black;
+}
+
+h6, h5, p, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer{
+  border-top: 1px solid white;
+  text-align: center;
+  color: black;
+  background-color: white;
+  opacity: 0.78;
+}
+
+
+@media (max-width: 768px){
+  h1{
+    font-family: 'Saira Stencil One';
+    color: black;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  h2{
+    font-family: 'Beth Ellen', cursive;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+  }
+
+  footer{
+    border-top: 1px solid white;
+    text-align: center;
+    color: black;
+    font-size: 10px;
+  }
+}
